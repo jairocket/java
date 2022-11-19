@@ -10,6 +10,16 @@ public class Product {
     public void show(){
         System.out.println(this.name + this.price);
     }
-    public void showNameSize(){System.out.println(this.name.length());}
+
+    public double getPrice(){
+        return this.price;
+    }
+    public String getName(){
+        return this.name;
+    }
+    public void showNameSize(){
+        System.out.println(this.name.length());
+    }
 }
+
 
